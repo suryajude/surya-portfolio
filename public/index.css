@@ -1,0 +1,242 @@
+.navbar{
+    display: flex;
+    justify-content: center;   
+    gap: 3rem; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 10vh;
+    align-items: center;
+    background: linear-gradient(90deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.education{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+        justify-content: center;
+        text-align: center;
+}
+
+.image{
+    color: white;
+}
+body{
+    background: linear-gradient(90deg, rgba(3, 169, 244, 1) 0%, rgba(0, 188, 212, 1) 6%, rgba(33, 150, 243, 1) 100%);
+}
+
+.image img{
+    position: relative;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid rgb(249, 250, 247);
+  }
+  .image{
+      display: flex;
+      position:relative;
+      top: 12vh;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  #name{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+      justify-content: center;
+      text-align: center;
+  }
+  h2,h3,p{
+    border: 0px;
+    margin: 0px;
+  }
+  hr{
+    width: 100%;
+    color: white;
+  }
+ .profile{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position:absolute; 
+    top: 47vh;
+    height:  fit-content;
+    width: 100%;
+    left: 0px;
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    color: rgb(22, 20, 20);
+    right: 0px;
+    background: rgb(84,209,12);
+    background: linear-gradient(90deg, rgba(84,209,12,1) 0%, rgba(51,215,171,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+ }
+ .profile > p{
+    color: black;
+ }
+
+ .software-skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    background-color: transparent;
+    position:relative;
+    z-index: 2;
+    gap: 10px;
+    top: 30vh;
+    padding-bottom: 5vh;
+ }
+ .software-skills h3{
+    text-align: center;
+ }
+ .software-skills div{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+   color: white;
+   border-radius: 1rem;
+   background: linear-gradient(90deg, rgba(131, 6, 44, 1) 0%, rgba(167, 0, 0, 1) 100%);
+ }
+ h3{
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+ }
+ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+#contact{  
+    position: fixed;
+    top: 30vh; 
+    background: rgb(209,12,42);
+background: linear-gradient(90deg, rgba(209,12,42,1) 0%, rgba(0,1,255,1) 100%);
+    color: white;
+    width: 60%;
+    left:10%;
+    padding: 10%;
+    border-radius: 1rem;
+
+}
+.contact ul .name{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-style: normal;
+        justify-content: center;
+        text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2{
+    text-align: center;
+}
+@media (min-width:300px)  and (max-width:499px) {
+    .image img{
+      position: relative;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 3px solid rgb(249, 250, 247);
+    }
+    .image{
+        display: flex;
+        position:relative;
+        top: 12vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #name{
+        justify-content: center;
+        text-align: center;
+    }
+    .profile{
+        top: 50vh;
+    }
+    .software-skills{
+        display: grid;
+        text-align: center;
+        gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        
+        background-color: transparent;
+        position:relative;
+        z-index: 2;
+        top: 37vh;
+     }
+     .software-skills div{
+        padding-bottom: 1rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+       background-color:  white;
+     }
+    
+    
+}
+@media (min-width:500px)  and (max-width:750px) {
+    .image img{
+      position: relative;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 3px solid rgb(249, 250, 247);
+    }
+    .image{
+        display: flex;
+        position:relative;
+        top: 12vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile{
+        top: 47vh;
+    }
+    #name{
+        justify-content: center;
+        text-align: center;
+    }
+    .software-skills{
+        display: grid;
+        text-align: center;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        
+        background-color: transparent;
+        position:relative;
+        z-index: 2;
+        top: 34vh;
+     }
+     .software-skills div{
+        padding-bottom: 1rem;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+       background-color:  white;
+     }
+    
+    
+}
+@media (min-width:0px) and (max-width:299px) {
+    
+
+}
